@@ -5,6 +5,12 @@ public class Example1 {
 		int x=4;
 		int y=++x;
 		System.out.println("val of y is:"+y);
+		int a=4;
+		a++;
+		System.out.println("val of a is:"+a);
+		 int b=6;
+		b++;
+		System.out.println("val of y is:"+b);
 	}
 
 }
