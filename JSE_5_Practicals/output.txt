@@ -1,0 +1,6 @@
+These types of code are very common in application code base where there is lots of IO operations.
+
+Code inside try and catch blocks are essentially important and have some application specific logics. But what about finally block?? Most of the time, finally blocks are just copy pasted for sake of saving the resources from corruption, by closing them.
+
+These finally blocks looks more ugly, when you have 3-4 such resources to close in single finally block. Don’t you think these finally blocks are unnecessarily there when we know, we have to close the resource anyhow without any exceptional case??
+

@@ -26,12 +26,12 @@ public class Customized_Exceptions {
 
 	public static void main(String[] args) {
 		
-		int age=70;
+		int age=30;
 		System.out.println(age);
-		if(age>60) {
+		if(age<60) {
 			throw new TooyoungException("please wait some more time.... u will get best match");
 		}//if block
-		else if(age<20) {
+		else if(age>70) {
 			throw new TooOldException("u r age already crossed....no chance of getting married");
 		}//if  else block
 		else {
